@@ -1,20 +1,20 @@
 class Runz < Formula
   desc "A minimal, fast task runner"
   homepage "https://github.com/mfyuu/runz"
-  version "0.1.2"
+  version "0.1.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/mfyuu/runz/releases/download/v0.1.2/runz-aarch64-apple-darwin.tar.xz"
-      sha256 "12260ffce5886a12bdf2f622d9100ab7dc9719df2f79b78c6e556f9a99d7b115"
+      url "https://github.com/mfyuu/runz/releases/download/v0.1.3/runz-aarch64-apple-darwin.tar.xz"
+      sha256 "f17ea3dc5ada0981544ee516a26f2d1e078f2130e061e72c77d2a8ed206a3a4e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/mfyuu/runz/releases/download/v0.1.2/runz-x86_64-apple-darwin.tar.xz"
-      sha256 "79789cae40aedf7e8dc45c3f3e9bdccba5e655c85090f49eeb8aec796983baa3"
+      url "https://github.com/mfyuu/runz/releases/download/v0.1.3/runz-x86_64-apple-darwin.tar.xz"
+      sha256 "17c87dae48fe7b966aa60e5ff338e15859ae16864bbe1f6e8886df8d116e8765"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
-      url "https://github.com/mfyuu/runz/releases/download/v0.1.2/runz-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "fb4730a65fa0f6a38bc867c219ee30d9cb389964ff148d4c7fc2e74ba187c948"
+      url "https://github.com/mfyuu/runz/releases/download/v0.1.3/runz-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "b91f364f0c474dc75d96a3979043b4057d0648827a5b5e40663cc6f1eda372ec"
   end
   license "MIT"
 
