@@ -1,20 +1,20 @@
 class Muu < Formula
   desc "A minimal, fast task runner"
   homepage "https://github.com/mfyuu/muu"
-  version "0.2.0"
+  version "0.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/mfyuu/muu/releases/download/v0.2.0/muu-aarch64-apple-darwin.tar.xz"
-      sha256 "946c8fe81ade4e116d848be1b223309d75b9a143dab993e7b59ac8d018104b1f"
+      url "https://github.com/mfyuu/muu/releases/download/v0.3.0/muu-aarch64-apple-darwin.tar.xz"
+      sha256 "a41b1a912b95c10598f0a2282267f4177c76697971f2cb005b4750a17a802e5d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/mfyuu/muu/releases/download/v0.2.0/muu-x86_64-apple-darwin.tar.xz"
-      sha256 "c633c939438104a338d3a56422b921d2f3d4c84325f63dcd5dd444274324a045"
+      url "https://github.com/mfyuu/muu/releases/download/v0.3.0/muu-x86_64-apple-darwin.tar.xz"
+      sha256 "5b0520f66f05399e164ecb0a454522796226fd35d8a4b9bc995545e0403ab106"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
-      url "https://github.com/mfyuu/muu/releases/download/v0.2.0/muu-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "d0c03854f3eb619578aacc3a731ade861de6990beecb458224af4b228df61ea1"
+      url "https://github.com/mfyuu/muu/releases/download/v0.3.0/muu-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "67452e0df5906410228cdd78e1d1a8ed48b5903167eac6e5fdb22dee93b3c9a3"
   end
   license "MIT"
 
